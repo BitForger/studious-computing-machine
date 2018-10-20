@@ -1,0 +1,5 @@
+<h1>AwsInfo#view</h1>
+<p>Find me in app/views/aws_info/view.html.erb</p>
+<% @arr.each do |item| %>
+  <%= item.name %> <%= link_to(item.name, '/aws_info/view/' + item.name) %> <br>
+<% end %>
